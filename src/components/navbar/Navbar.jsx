@@ -33,7 +33,7 @@ const Navbar = () => {
           <span className='text-[#451A64] text-xl nav-text'>
             Join as Design Expert
           </span>
-          <span className='text-[#451A64] text-xl animate__animated animate__zoomIn animate-faster'>
+          <span className='text-[#451A64] text-xl '>
             Partner with LAND Interior
           </span>
         </div>
