@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+}
 .slick-arrow.slick-next::before{
  /* background-color: red;  */
 color: black;}

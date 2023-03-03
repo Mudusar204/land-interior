@@ -9,14 +9,14 @@ const Contacts = () => {
             <h1 className='text-center  text-4xl font-semibold mt-16 max-md:text-left max-md:ml-[5%]'>Our Happy Costumers</h1>
             <h1 className='text-center mt-10 max-md:text-left max-md:ml-[5%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet <br />
                 luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim</h1>
-            <div className='flex justify-between gap-20 mt-16 mb-20'>
+            <div className='flex justify-between gap-20 mt-16   mb-20'>
                 <div className='flex flex-col justify-center max-md:hidden' ><img src={contactLeftImg} alt="" /></div>
-                <div className='relative max-md:m-10'><img src={contactMainImg} alt="" />
+                <div className='relative max-md:mx-10 '><img src={contactMainImg} alt="" />
                     <div className='absolute h-[45%] w-[60%] bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
                         <div className='flex justify-center '>
                             <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
                         </div>
-                        <h1 className='mt-0 max-md:mt-0'>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit ut aliquam, purus sit amet luctus venenatis, lectus <br /> magna fringilla urna, porttitor</h1>
+                        <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit ut aliquam, purus sit amet luctus venenatis, lectus <br /> magna fringilla urna, porttitor</h1>
                         <div>
                             <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
                         </div>
