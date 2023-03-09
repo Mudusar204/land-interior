@@ -60,25 +60,25 @@ const Header = (props) => {
                 <div className='flex justify-end'>
                     <img src={headerImage2} alt="headier image"  height={'auto'}  className='md:w-[75%] '/>
                 </div>
-                <div className='flex flex-col justify-around  text-center items-center   bg-white bg-opacity-80 w-1/2 h-4/5 max-md:h-[100%] max-md:top-0 absolute top-[10%] left-0 '>
-                    <div>
+                <div className='flex flex-col justify-around max-md:text-left  text-center items-center max-md:items-start max-md:pl-10   bg-white bg-opacity-80 w-1/2 max-sm:w-[100%] h-4/5 max-md:h-[100%] max-md:top-0 absolute top-[10%] left-0 '>
+                    <div className='max-md:text-left'>
 
-                        <h1 className='text-3xl max-lg:text-2xl max-lg:my-2 max-sm:text-xl  leading-10 mt-4 mb-4'>Make your dream interior in</h1>
-                        <h1 className='text-5xl max-lg:text-3xl max-lg:my-2 max-sm:text-2xl leading-10 mb-6'>3 easy steps</h1>
+                        <h1 className='text-3xl max-lg:text-2xl max-lg:my-2 max-sm:text-[1rem]  max-sm:my-0 mt-4 mb-4'>Make your dream interior in</h1>
+                        <h1 className='text-5xl max-lg:text-3xl max-lg:my-2 max-sm:text-xl max-sm:my-0  mb-6'>3 easy steps</h1>
                     </div>
                     <div>
 
-                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl max-lg:mb-0 leading-10 mb-2 font-semibold '>Explore</h1>
-                        <h1>Explore more than just modular design <br />
+                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl max-lg:mb-0 max-sm:my-0  mb-2 font-semibold text-purple-900 '>Explore</h1>
+                        <h1 className=''>Explore more than just modular design <br />
                             ideas with our experts.</h1>
                     </div>  <div>
 
-                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl leading-10 max-lg:mb-0 mb-2 font-semibold '>Design</h1>
+                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl  max-lg:mb-0 mb-2 max-sm:my-0 font-semibold text-purple-900 '>Design</h1>
                         <h1>Complete the designs with painting, flooring <br />
                             and other decor solutions</h1>
                     </div>
                     <div>
-                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl leading-10 max-lg:mb-0 mb-2 font-semibold '>Move-in</h1>
+                        <h1 className='text-3xl max-lg:text-2xl max-sm:text-xl  max-lg:mb-0 mb-2 max-sm:my-0 font-semibold text-purple-900 '>Move-in</h1>
                         <h1>Move in with ease, with our hassle-free civil work <br />
                             and installation services.</h1>
 
