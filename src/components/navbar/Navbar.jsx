@@ -26,19 +26,20 @@ const Navbar = () => {
     <div className='nav-bg'>
       <div className='flex justify-between items-center nav-1st-section'>
         <img src={logo} alt='logo' height='111' width='111' />
-        <button onClick={menuFunction} className='md:hidden'>
+        <button onClick={menuFunction} className='md:hidden mr-10'>
           <img src={menuIcon} alt='' />
         </button>
         <div className='flex gap-x-20 max-md:hidden'>
           <span className='text-[#451A64] text-xl nav-text'>
             Join as Design Expert
           </span>
-          <span className='text-[#451A64] text-xl animate__animated animate__zoomIn'>
+          <span className='text-[#451A64] text-xl '>
             Partner with LAND Interior
           </span>
         </div>
       </div>
-      <div className='flex justify-center mt-10 pb-12'>
+      <div  className={`  max-md:${loader ? 'block' : 'hidden'
+            } flex gap-6 justify-center pb-10 text-xl `}>
         <ul
           className={`  max-md:${loader ? 'block' : 'hidden'
             } flex gap-6 text-xl `}

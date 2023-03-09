@@ -8,9 +8,12 @@ body{
 }
 .slick-arrow.slick-next::before{
  /* background-color: red;  */
-color: black;}
+color: black !important;
+display: none;
+}
  .slick-arrow.slick-prev::before{
     /* background-color: red; */
+    display: none;
 color: black; 
 }
 .slick-arrow.slick-prev{
@@ -20,6 +23,12 @@ color: black;
 .slick-arrow.slick-next{
     padding-bottom: 110px;
 }
+/* .slick-next:before{
+    content: '>' !important;
+    background-image: url(../src/assests/fb.png);
+
+
+} */
 .bgSection{
      /* background-color: red;  */
      background-image: url('../src/assests/bgImg.png');

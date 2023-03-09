@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../index.css';
-import card1 from '../../assests/headerCard1.png'
-import card2 from '../../assests/headerCard2.png'
-import card3 from '../../assests/headerCard3.png'
+import card1 from '../../assests/headerCard1.svg'
+import card2 from '../../assests/headerCard2.svg'
+import card3 from '../../assests/headerCard3.svg'
 import headerImage from '../../assests/headerImg.png'
 import headerImage2 from '../../assests/headerImg2.png'
 import projectsImg1 from '../../assests/projectsImg1.png'
@@ -12,16 +12,16 @@ import projectsImg4 from '../../assests/projectsImg4.png'
 const Header = (props) => {
     return (
         <div id='header' className='bgSection1'>
-            <div className='relative mt-16 max-md:mt-0 mb-20'>
+            <div className='relative box-content overflow-hidden mt-16 max-md:mt-0 mb-20'>
                 <div>
                     <img src={headerImage} alt="headier image"  className=' max-sm:w-[100%]  md:w-[80%] lg:w-[60%]' height={'auto'} />
                 </div>
-                <div className='flex flex-col justify-center  items-center gap-8 py-32 bg-white bg-opacity-80 w-1/2 h-[60%] absolute md:top-[20%] md:right-0 max-md:left-[5%] max-md:top-[40%] max-md:w-[90%]   '>
+                <div className='flex flex-col justify-center pt-8   items-center   bg-white bg-opacity-80 w-1/2 h-[60%] absolute md:top-[20%] md:right-0 max-md:left-[5%] max-md:top-[40%] max-md:w-[90%] max-sm:bottom-0  '>
 
 
                     <h1 className='text-3xl leading-54 mt-4 max-sm:text-xl'>Get personalised home Interior</h1>
-                    <h1 className='text-4xl leading-3 mb-4 font-semibold '>in just 50 days</h1>
-                    <button className='bg-purple-900 mb-8 uppercase text-xl leading-45 mt-4  p-3 text-white' >speak with a online consultant</button>
+                    <h1 className='text-4xl max-sm:text-3xl  mb-4 max-sm:mb-0 font-semibold '>in just 50 days</h1>
+                    <button className='bg-purple-900 mb-8 uppercase text-xl max-sm:text-sm leading-45 mt-4  p-3 text-white' >speak with a online consultant</button>
 
 
                 </div>
@@ -30,23 +30,23 @@ const Header = (props) => {
                 <h1 className='text-center font-medium text-3xl leading-9'>Why LAND Interiors</h1>
                 <div className='flex justify-around mt-24 max-sm:flex-col max-sm:items-center max-sm:gap-10'>
                     <div className='text-center flex flex-col  '>
-                        <h1 className='ml-6'>
+                        <h1 className='ml-4 mb-4'>
 
-                            <img src={card1} alt=" card wali img" width='70' />
+                            <img src={card1} alt=" card wali img"  />
                         </h1>
                         <h1>50 days or we <br />
                             pay you rent</h1>
                     </div>
                     <div className='text-center flex flex-col'>
-                        <h1 className='ml-6 '>
+                        <h1 className='ml-3 mb-4 '>
 
-                            <img src={card2} alt=" card wali img" width='80' />
+                            <img src={card2} alt=" card wali img"  />
                         </h1>
                         <h1>1500+happy <br />
                             customers</h1>
                     </div>
                     <div className='text-center flex flex-col mt-4'>
-                        <h1 className='ml-6'>
+                        <h1 className='ml-6 mb-4'>
 
                             <img src={card3} alt=" card wali img" width='50' />
 

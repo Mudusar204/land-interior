@@ -28,13 +28,13 @@ const Contacts = () => {
                 <h1 className='ml-[7%] max-md:ml-[5%] mb-10 mt-[1%] max-md:text-2xl text-4xl font-normal'>Let talk about your Dream home</h1>
                 <div className='ml-[5%] md:flex md:justify-around  max-md:flex-none '>
                     <div className=' w-[30%] max-md:w-[90%] max-md:my-10'>
-                        <input type="text" placeholder='Name' className='rounded-none w-[100%] border-b-2 py-2 border-gray-400' />
+                        <input type="text" placeholder='Name' className='focus:outline-none  rounded-none w-[100%] border-b-2 py-2 border-gray-400' />
                     </div>
                     <div className='w-[30%] max-md:w-[90%] max-md:my-10'>
-                        <input type="text" placeholder='Phone/Email' className='rounded-none w-[100%] border-b-2 py-2 border-gray-400' />
+                        <input type="text" placeholder='Phone/Email' className='focus:outline-none rounded-none w-[100%] border-b-2 py-2 border-gray-400' />
                     </div>
                     <div className=' w-[25%] max-md:w-[100%] max-md:flex max-md:justify-center'  >
-                        <button className='bg-purple-900   text-xl leading-45  p-3 px-16 text-white' >Send</button>
+                        <button className='bg-purple-900  text-xl  leading-45  p-2  px-16 text-white' >Send</button>
                     </div>
                 </div>
             </div>
