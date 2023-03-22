@@ -70,11 +70,7 @@ export default () => {
     };
     return (
         <div className="relative">
-            <div className="flex gap-4  mr-20 max-md:mr-0 mb-8 max-sm:mt-[-10%]">
-
-                <button className="absolute right-10 top-[50%] max-sm:right-3 lg:hidden" onClick={() => slider?.current?.slickNext()}><img src={sliderIcon} width={30} alt="slider wali img" /></button>
-                <button className="absolute top-[50%] left-7 max-sm:left-2 lg:hidden" onClick={() => slider?.current?.slickPrev()}> <img src={sliderIcon} className='rotate-180' width={30} alt="slider wali img" /></button>
-            </div>
+            
 
             <Slider ref={slider} {...settings}>
                 <div className="">
@@ -119,6 +115,11 @@ export default () => {
                 </div>
 
             </Slider>
+            <div className="flex gap-4  mr-20 max-md:mr-0 mb-8 max-sm:mt-[-10%]">
+
+                <button className="absolute right-10 top-[50%] max-sm:right-3 lg:hidden" onClick={() => slider?.current?.slickNext()}><img src={sliderIcon} width={30} alt="slider wali img" /></button>
+                <button className="absolute top-[50%] left-7 max-sm:left-2 lg:hidden" onClick={() => slider?.current?.slickPrev()}> <img src={sliderIcon} className='rotate-180' width={30} alt="slider wali img" /></button>
+            </div>
         </div>
     );
 
