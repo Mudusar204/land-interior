@@ -30,9 +30,9 @@ export default () => {
 
         responsive: [
             {
-                breakpoint: 1000,
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     // dots: true
@@ -57,7 +57,7 @@ export default () => {
     };
     return (
         <div id='blog' className="relative"   >
-            <h1 className="ml-20 text-4xl font-medium mb-10 ">Blogs</h1>
+            <h1 className="ml-20 text-4xl font-[500] mt-[99px] mb-[20px] ">Blogs</h1>
             <div className="flex gap-4  mr-20 max-md:mr-0 mb-8 max-sm:mt-[-10%]">
 
                 <button className="absolute right-10 top-[40%] max-sm:right-3" onClick={() => slider?.current?.slickNext()}><img src={sliderIcon} width={30} alt="slider wali img" /></button>
@@ -67,40 +67,55 @@ export default () => {
 
                 <div className="w-[90%] max-lg:w-[80%] ">
                     <Slider ref={slider} {...settings}>
-                        <div className="mr-4">
-                            <h3 className="pr-10"><img src={sliderImg1} alt="slider wali img" /></h3>
-                            <h1 className="text-2xl my-2 font-semibold">Modern Interior</h1>
-                            <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
-                                consectetur adipiscing elit ut <br />
-                                aliquam,</h1>
+                        <div className="p-5">
+
+                            <div className=" ">
+                                <h3 className=""><img src={sliderImg1} alt="slider wali img" /></h3>
+                                <h1 className="text-2xl my-2 font-semibold">Modern Interior</h1>
+                                <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
+                                    consectetur adipiscing elit ut <br />
+                                    aliquam,</h1>
+                            </div>
                         </div>
-                        <div>
-                            <h3 className="mr-10"><img src={sliderImg2} alt="slider wali img" /></h3>
-                            <h1 className="text-2xl my-2 font-semibold">Exterior Project</h1>
-                            <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
-                                consectetur adipiscing elit ut <br />
-                                aliquam,</h1>
+                        <div className="p-5">
+
+                            <div>
+                                <h3 className=""><img src={sliderImg2} alt="slider wali img" /></h3>
+                                <h1 className="text-2xl my-2 font-semibold">Exterior Project</h1>
+                                <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
+                                    consectetur adipiscing elit ut <br />
+                                    aliquam,</h1>
+                            </div>
                         </div>
-                        <div>
-                            <h3 className="mr-10"><img src={sliderImg3} alt="slider wali img" /></h3>
-                            <h1 className="text-2xl my-2 font-semibold">Grey Beauty</h1>
-                            <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
-                                consectetur adipiscing elit ut <br />
-                                aliquam,</h1>
+                        <div className="p-5">
+
+                            <div>
+                                <h3 className=""><img src={sliderImg3} alt="slider wali img" /></h3>
+                                <h1 className="text-2xl my-2 font-semibold">Grey Beauty</h1>
+                                <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
+                                    consectetur adipiscing elit ut <br />
+                                    aliquam,</h1>
+                            </div>
                         </div>
-                        <div>
-                            <h3 className="mr-10"><img src={sliderImg4} alt="slider wali img" /></h3>
-                            <h1 className="text-2xl my-2 font-semibold">Plantation interior</h1>
-                            <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
-                                consectetur adipiscing elit ut <br />
-                                aliquam,</h1>
+                        <div className="p-5">
+
+                            <div>
+                                <h3 className=""><img src={sliderImg4} alt="slider wali img" /></h3>
+                                <h1 className="text-2xl my-2 font-semibold">Plantation interior</h1>
+                                <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
+                                    consectetur adipiscing elit ut <br />
+                                    aliquam,</h1>
+                            </div>
                         </div>
-                        <div>
-                            <h3 className="mr-10"><img src={sliderImg3} alt="slider wali img" /></h3>
-                            <h1 className="text-2xl my-2 font-semibold">Role of furnitures</h1>
-                            <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
-                                consectetur adipiscing elit ut <br />
-                                aliquam,</h1>
+                        <div className="p-5">
+
+                            <div>
+                                <h3 className=""><img src={sliderImg3} alt="slider wali img" /></h3>
+                                <h1 className="text-2xl my-2 font-semibold">Role of furnitures</h1>
+                                <h1 className="mt-4">Lorem ipsum dolor sit amet, <br />
+                                    consectetur adipiscing elit ut <br />
+                                    aliquam,</h1>
+                            </div>
                         </div>
 
                     </Slider>
@@ -108,7 +123,7 @@ export default () => {
             </div>
             <div className="flex justify-center mt-10">
 
-                <button className='bg-purple-900 mb-8  text-xl leading-45 mt-4  px-14 py-4 text-white' >View all</button>
+                <button className='bg-[#4B2A63] max-lg:hidden mb-8  text-xl leading-45 mt-4  px-14 py-4 text-white' >View all</button>
             </div>
 
         </div>

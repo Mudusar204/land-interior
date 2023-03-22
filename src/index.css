@@ -2,44 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     /* overflow-y: scroll; */
     overflow-x: hidden;
 }
-.slick-arrow.slick-next::before{
- /* background-color: red;  */
-color: black !important;
-display: none;
+
+.slick-arrow.slick-next::before {
+    /* background-color: red;  */
+    color: black !important;
+    display: none;
 }
- .slick-arrow.slick-prev::before{
+
+.slick-arrow.slick-prev::before {
     /* background-color: red; */
     display: none;
-color: black; 
+    color: black;
 }
-.slick-arrow.slick-prev{
+
+.slick-arrow.slick-prev {
     padding-bottom: 110px;
-    
+
 }
-.slick-arrow.slick-next{
+
+.slick-arrow.slick-next {
     padding-bottom: 110px;
 }
+
 /* .slick-next:before{
     content: '>' !important;
     background-image: url(../src/assests/fb.png);
 
 
 } */
-.bgSection{
-     /* background-color: red;  */
-     background-image: url('../src/assests/bgImg.png');
+.bgSection {
+    /* background-color: red;  */
+    background-image: url('../src/assests/bgImg.png');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
-     
- }
- .bgSection1{
+
+}
+
+.bgSection1 {
     background-image: url('../src/assests/bgImg1.png');
     background-size: contain;
     background-position-y: center;
     /* background-position-x: ; */
-    background-position: center; background-repeat: no-repeat  }
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+/* @media screen and (min-width:1000px) { */
+    .nd-slider .slick-list {
+        overflow: visible !important
+    }

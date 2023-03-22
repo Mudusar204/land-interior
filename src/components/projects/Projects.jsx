@@ -8,13 +8,12 @@ import projectsSideImg4 from '../../assests/projectsSideImg4.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='pt-1'>
+        <div id='projects' className='mt-[0px] pt-[80px]'>
            
-            <div className='relative   mt-20 pb-20'>
+            <div className='relative   '>
 
-                <h1 className='text-3xl leading-54 mt-4 md:hidden pl-10 pb-8'>Our Projects</h1>
-
-                <div className=' flex gap-2 pl-10  w-[50%] max-lg:w-[75%] max-md:w-[100%] max-md:px-10' >
+                {/* <h1 className='text-4xl font-[500] leading-54 ml-[149px] pb-[27px] text-[#241330] lg:hidden'>Our Projects</h1> */}
+                <div className=' flex justify-center mx-[96px] gap-2 max-lg:mx-[5%] w-[783px] max-lg:w-[90%] ' >
                     <div>
                         <div>
                             <img src={projectsSideImg1} alt="headier image" height={'auto'} />
@@ -36,19 +35,14 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-around text-center  items-center gap-8 py-32 bg-white bg-opacity-80 w-[60%] h-[70%] absolute top-[7%] right-0 max-md:static max-md:py-0 max-md:w-[100%] max-md:px-10  '>
-
-
-                    <h1 className='text-3xl leading-54 mt-4 max-md:hidden'>Our Projects</h1>
-                    <h1 className='text-center text-md  max-md:text-left'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus <br /> venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
-                        <br /> elementum facilisis leo, vel fringilla est ullamcorper eget nulla
+                <div className='flex flex-col  text-center  items-center max-lg:items-start  bg-white bg-opacity-80 lg:absolute lg:right-[97px] lg:top-[36px] h-[519px] max-lg:h-auto lg:w-[997px]   max-lg:mx-auto max-lg:w-[76%] max-md:w-[90%]'>
+                    <h1 className='text-4xl font-[500] leading-54 mt-[63px] text-[#241330] max-lg:hidden'>Our Projects</h1>
+                    <h1 className='text-center max-lg:text-left text-[18px] leading-[27px]  max-md:text-left mt-[45px]'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus <span className='max-md:hidden'> <br /></span> venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
+                        <span className='max-md:hidden'>    <br /></span> elementum facilisis leo, vel fringilla est ullamcorper eget nulla
                     </h1>
-                    <h1 className='text-center text-md max-md:text-left '>  magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,  vel fringilla est ullamcorper eget nulla</h1>
-
-                    <button className='bg-purple-900   text-xl leading-45  p-3 px-16 text-white' >Veiw All</button>
-
-
+                    <h1 className='text-center max-lg:text-left text-[18px] leading-[27px]   mt-[25px] '>  magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, <span><br /></span>  vel fringilla est ullamcorper eget nulla</h1>
+                    <button className='bg-[#4B2A63]   text-2xl leading-[36px] font-[600] py-[23px]  px-[88px] max-lg:mx-auto text-white mt-[51px] max-lg:mb-0' >View All</button>
                 </div>
             </div>
         </div>

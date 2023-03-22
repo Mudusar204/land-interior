@@ -8,21 +8,21 @@ import logo from '../../assests/logo.png'
 
 const Footer = (props) => {
     return (
-        <div className='bg-slate-100' id='footer'>
-            <div className='flex justify-around  pt-10 pb-7'>
-                <div >
-                    <div className='flex justify-center md:justify-start'>
+        <div className='bg-[#F8F8F8]' id='footer'>
+            <div className='flex   pt-[63px] max-lg:pt-[37px] pb-[50px] max-lg:pb-[33px]'>
+                <div className='ml-[200px] max-lg:mx-auto max-xl:ml-[100px]'   >
+                    <div className='flex justify-center lg:justify-start'>
                         <img src={logo} alt="" /><br />
-                    </div>
-                    <div className='text-center md:hidden max-md:my-8'>
-                    <ul className=' md:my-20'>
+                    </div><br />
+                    <div className='text-center lg:hidden '>
+                    <ul className=' mb-6'>
                         <li>hafizmudusar37@gmail.com</li>
                         <li>+927487 78797989</li>
                     </ul>
                     </div>
-                    <div className='max-md:hidden'>
+                    <div className='max-lg:hidden'>
 
-                        <h1 className='ml-8'>We introduce our selves as  LAND Interior and <br />
+                        <h1 className='ml-8 text-[18px] font-[400] text-[#3D3D3D]'>We introduce our selves as  LAND Interior and <br />
                             Architectural Design Consultancy – one of the
                             <br /> best interior designers in Chennai.
                             <br /> Chennai Luxury Interior and Architectural Design
@@ -30,7 +30,7 @@ const Footer = (props) => {
                             way of interior designing and given new <br />
                             dimensions to the art of interior designing.   </h1><br />
                     </div>
-                    <div className='flex gap-7 ml-8'>
+                    <div className='flex gap-7 items-center ml-8'>
                         <div>
 
                             <img src={fb} alt="" />
@@ -54,11 +54,11 @@ const Footer = (props) => {
                     </div>
 
                 </div>
-                <div className='max-md:hidden'>
+                <div className='max-lg:hidden ml-[248px] max-xl:ml-[100px]'>
                     <br /> <br />
-                    <h1 className='text-xl'>WHAT WE DO</h1>
+                    <h1 className='text-xl font-[600] text-[#4F4F4F]'>WHAT WE DO</h1>
                     <br /><br />
-                    <ul>
+                    <ul className='text-[18px] font-[500] text-[#4F4F4F]'>
                         <li>Interior Design</li>
                         <li>Kitchen</li>
                         <li>Ceiling</li>
@@ -68,19 +68,19 @@ const Footer = (props) => {
 
                 </div>
 
-                <div className='max-md:hidden'>
+                <div className='max-lg:hidden ml-[275px] max-xl:ml-[150px]'>
                     <br /><br />
-                    <h1 className='text-xl'>
+                    <h1 className='text-xl font-[600] text-[#4F4F4F]'>
                         Get in touch
                     </h1>
                     <br /><br />
-                    <ul>
+                    <ul className='text-[18px] font-[500] text-[#4F4F4F]'>
                         <li>hafizmudusar37@gmail.com</li>
                         <li>+927487 78797989</li>
                     </ul>
                     <br /><br /><br />
                     <div className=' flex justify-center mt-10 pb-12' >
-                        <ul className='flex gap-8 flex-wrap text-xl' >
+                        <ul className='flex gap-x-[83px] flex-wrap text-[18px] text-[#4F4F4F]' >
                             <li>About</li>
                             <li>Projects</li>
                             <li>Studio</li>
