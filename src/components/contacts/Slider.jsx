@@ -69,52 +69,53 @@ export default () => {
             }]
     };
     return (
-        <div className="relative">
-            
+            <div className="relative overflow-hidden">
+        <div className="w-[100%] ">
 
-            <Slider ref={slider} {...settings}>
-                <div className="">
-                    <div className=' max-md:mx-10 mx-20 relative  bg-red-400'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
-                        <div className='absolute h-[45%] w-[60%] overflow-visible z-10 bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
-                            <div className='flex justify-center '>
-                                <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
-                            </div>
-                            <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing   <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
-                            <div className="">
-                                <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
+                <Slider ref={slider} {...settings}>
+                    <div className="">
+                        <div className=' max-md:mx-10 mx-20 relative  bg-red-400'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
+                            <div className='absolute h-[45%] w-[60%] overflow-visible z-10 bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
+                                <div className='flex justify-center '>
+                                    <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
+                                </div>
+                                <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing   <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
+                                <div className="">
+                                    <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className=" ">
-                    <div className='relative max-md:mx-10 mx-20'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
-                        <div className='absolute h-[45%] w-[60%] bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
-                            <div className='flex justify-center '>
-                                <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
-                            </div>
-                            <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing  <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
-                            <div>
-                                <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className=" ">
-
-                    <div className='relative max-md:mx-10 mx-20'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
-                        <div className='absolute h-[45%] w-[60%] bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
-                            <div className='flex justify-center '>
-                                <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
-                            </div>
-                            <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
-                            <div>
-                                <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
+                    <div className=" ">
+                        <div className='relative max-md:mx-10 mx-20'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
+                            <div className='absolute h-[45%] w-[60%] bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
+                                <div className='flex justify-center '>
+                                    <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
+                                </div>
+                                <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing  <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
+                                <div>
+                                    <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div className=" ">
 
-            </Slider>
+                        <div className='relative max-md:mx-10 mx-20'><img src={contactMainImg} height={536} className='max-sm:h-[300px]' alt="" />
+                            <div className='absolute h-[45%] w-[60%] bg-gray-50 max-lg:w-[75%] max-lg:left-[12%] max-md:w-[90%] max-md:bottom-[10%] max-md:left-[5%] max-md:h-[70%] left-[20%] bottom-[-10%] flex flex-col justify-center  text-center'>
+                                <div className='flex justify-center '>
+                                    <img src={contactProfileImg} className='mt-[-10%]' alt=" profile img" width={100} height={100} />
+                                </div>
+                                <h1 className='mt-0 max-md:mt-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing <span className="max-sm:hidden"> <br /></span> elit ut aliquam, purus sit amet luctus venenatis, lectus <span className="max-sm:hidden"> <br /></span> magna fringilla urna, porttitor</h1>
+                                <div>
+                                    <h1 className='text-2xl font-semibold mt-[10] ' >-Jeo Stanlee</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </Slider>
+            </div>
             <div className="flex gap-4  mr-20 max-md:mr-0 mb-8 max-sm:mt-[-10%]">
 
                 <button className="absolute right-10 top-[50%] max-sm:right-3 lg:hidden" onClick={() => slider?.current?.slickNext()}><img src={sliderIcon} width={30} alt="slider wali img" /></button>
