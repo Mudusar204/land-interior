@@ -5,7 +5,7 @@ import './index.css';
 
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
-import Slider from './components/Slider';
+import Slider from './components/Slider'; 
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
 import Studio from './components/studio/Studio';
